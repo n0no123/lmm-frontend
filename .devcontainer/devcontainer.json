@@ -1,0 +1,23 @@
+{
+    "name": "Debian: Elm",
+    "build": {
+        "dockerfile": "dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Elmtooling.elm-ls-vscode",
+                "GitHub.vscode-pull-request-github",
+                "Gruntfuggly.todo-tree",
+                "ms-vsliveshare.vsliveshare",
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-french"
+            ],
+            "settings": {
+                "editor.fontFamily": "'Fira Code'",
+                "terminal.integrated.defaultProfile.linux": "fish"
+            }
+        }
+    }
+}
